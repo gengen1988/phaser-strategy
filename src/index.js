@@ -1,4 +1,8 @@
 import Phaser from 'phaser'
+import {GameAnalytics} from 'gameanalytics'
+
+GameAnalytics.setEnabledInfoLog(true)
+GameAnalytics.initialize('f84354185885c5fd5c98baa926e0720c', '2a7914e98d8c9b13489623a9b1921a681aac0396')
 
 let config = {
   type: Phaser.AUTO,

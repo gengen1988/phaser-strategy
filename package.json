@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gameanalytics": "^2.1.2",
     "phaser": "^3.5.0"
   },
   "devDependencies": {
