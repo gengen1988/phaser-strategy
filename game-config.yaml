@@ -1,0 +1,9 @@
+gameAnalytics:
+  enabled: false
+  enabledInfoLog: true
+  gameKey: f84354185885c5fd5c98baa926e0720c
+  secretKey: 2a7914e98d8c9b13489623a9b1921a681aac0396
+
+phaser:
+  width: 800
+  height: 600

@@ -14,6 +14,11 @@ module.exports = {
       {
         test: [/\.vert$/, /\.frag$/],
         use: 'raw-loader'
+      },
+      {
+        type: 'json',
+        test: /\.ya?ml$/,
+        use: 'yaml-loader'
       }
     ]
   },
